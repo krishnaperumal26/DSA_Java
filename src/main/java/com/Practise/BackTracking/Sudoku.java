@@ -87,3 +87,5 @@ public class Sudoku {
     }
 }
 
+// TC: O(9^(n*n)) where n is the size of the Sudoku grid (9x9). = O(9^81)
+//SC: 9*9 = 9^2 = O(81) = O(1)
